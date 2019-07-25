@@ -1,0 +1,29 @@
+{
+	"name": "petmefy",
+	"version": "1.0.0",
+	"description": "Pet Community website",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nerflim/petmefy.git"
+	},
+	"author": "Milfren John dela Vega",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nerflim/petmefy/issues"
+	},
+	"homepage": "https://github.com/nerflim/petmefy#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^8.0.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.6.6"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.1"
+	}
+}
