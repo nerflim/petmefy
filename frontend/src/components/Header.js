@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
 	return (
 		<div>
-			<nav className='navbar navbar-expand-lg navbar-light bg-light'>
+			<nav className='navbar navbar-expand-lg navbar-light fixed-top'>
 				<Link to='/' className='navbar-brand'>
 					PETMEFY
 				</Link>
@@ -31,7 +31,7 @@ const Header = () => {
 							</Link>
 						</li>
 						<li className='nav-item'>
-							<a className='nav-link disabled' href='#' tabindex='-1' aria-disabled='true'>
+							<a className='nav-link disabled' href='#' tabIndex='-1' aria-disabled='true'>
 								Community
 							</a>
 						</li>

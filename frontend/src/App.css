@@ -2,3 +2,13 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 }
+.home-banner {
+	height: 500px;
+	padding-top: 130px;
+	background: url('/img/banner-bg.svg') no-repeat;
+	background-position: right;
+	background-size: contain;
+}
+.home-banner h1 {
+	font-size: 80px;
+}
