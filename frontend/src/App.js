@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './vendor.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/Header';
 
@@ -15,8 +15,10 @@ function App() {
 				<Header />
 
 				<Route exact path='/' component={Home} />
-				<Route path='/shop' component={Shop} />
-				<Route path='/adopt' component={Adopt} />
+				<div className='pt-20'>
+					<Route path='/shop' component={Shop} />
+					<Route path='/adopt' component={Adopt} />
+				</div>
 			</div>
 		</Router>
 	);
