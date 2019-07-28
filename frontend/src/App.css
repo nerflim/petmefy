@@ -2,6 +2,14 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 }
+.navbar {
+	background-color: rgba(0, 0, 0, 0.8);
+	left: calc(-50vw + 50%);
+	right: calc(-50vw + 50%);
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 99999;
+}
 .home-banner {
 	height: 500px;
 	padding-top: 130px;

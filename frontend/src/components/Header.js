@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
 	return (
-		<nav className='flex items-center justify-between flex-wrap bg-transparent opacity-100 p-6 w-full fixed'>
+		<nav className='navbar flex items-center justify-between flex-wrap p-6 w-full fixed text-white container rounded-full mt-5 shadow'>
 			<div className='flex items-center flex-shrink-0 mr-6'>
 				<Link to='/' className='text-lg font-bold'>
 					PETMEFY

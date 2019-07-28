@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Home from './components/pages/Home';
 import Shop from './components/pages/Shop';
 import Adopt from './components/pages/Adopt';
+import Footer from './components/Footer';
 
 function App() {
 	return (
@@ -15,10 +16,10 @@ function App() {
 				<Header />
 
 				<Route exact path='/' component={Home} />
-				<div className='pt-20'>
-					<Route path='/shop' component={Shop} />
-					<Route path='/adopt' component={Adopt} />
-				</div>
+				<Route path='/shop' component={Shop} />
+				<Route path='/adopt' component={Adopt} />
+
+				<Footer />
 			</div>
 		</Router>
 	);
