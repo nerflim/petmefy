@@ -6,7 +6,7 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
 	return (
-		<footer className='bg-gray-900 text-white py-5 border-b-8 border-main'>
+		<footer className='bg-gray-900 text-white py-5'>
 			<div className='container mx-auto'>
 				<div className='flex mx-2 my-8'>
 					<div className='w-1/3 px-2'>
